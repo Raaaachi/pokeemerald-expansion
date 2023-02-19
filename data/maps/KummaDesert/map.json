@@ -2,7 +2,7 @@
   "id": "MAP_KUMMA_DESERT",
   "name": "KummaDesert",
   "layout": "LAYOUT_KUMMA_DESERT",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_BW_ROUTE4_SUMMER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

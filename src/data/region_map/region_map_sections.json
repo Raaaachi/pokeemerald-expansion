@@ -1718,6 +1718,14 @@
       "y": 17,
       "width": 25,
       "height": 24
+    },
+    {
+      "map_section": "MAPSEC_KUMMA_DESERT",
+      "name": "Kumma Desert",
+      "x": 11,
+      "y": 17,
+      "width": 50,
+      "height": 30
     }
   ]
 }

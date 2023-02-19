@@ -4415,7 +4415,7 @@
       "id": "LAYOUT_KUIVA_TOWN",
       "name": "KuivaTown_Layout",
       "width": 25,
-      "height": 25,
+      "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/KuivaTown/border.bin",

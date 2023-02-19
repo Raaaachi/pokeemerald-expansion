@@ -526,6 +526,14 @@ LittlerootTown_EventScript_MomApproachPlayerFemale::
 	call_if_eq VAR_0x8008, 4, LittlerootTown_EventScript_MomApproachPlayerFemale4
 	call_if_eq VAR_0x8008, 5, LittlerootTown_EventScript_MomApproachPlayerFemale5
 	return
+	
+LittlerootTown_Eventscript_WarpTestNPC::
+	lock 
+	faceplayer
+	msgbox LittlerootTown_Text_WarpingYou, MSGBOX_DEFAULT
+	warp MAP_KUIVA_TOWN, 11, 17
+	release
+	end
 
 LittlerootTown_EventScript_MomApproachPlayer0::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
@@ -1018,4 +1026,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
+	
+LittlerootTown_Text_WarpingYou:
+	.string "Need a lift?$"
 

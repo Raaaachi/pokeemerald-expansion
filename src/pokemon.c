@@ -7853,7 +7853,7 @@ u16 GetBattleBGM(void)
             return MUS_B2_VS_BLACK_WHITE_KYUREM;
         #endif
         default:
-            return MUS_VS_WILD;
+            return MUS_DP_VS_WILD;
         }
     }
 }

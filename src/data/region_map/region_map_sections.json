@@ -1710,6 +1710,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "map_section": "MAPSEC_KUIVA_TOWN",
+      "name": "Kuiva Town",
+      "x": 11,
+      "y": 17,
+      "width": 25,
+      "height": 24
     }
   ]
 }

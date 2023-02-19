@@ -1063,3 +1063,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/KuivaTown/scripts.inc"
 
 	.include "data/maps/KummaDesert/scripts.inc"
+
+	.include "data/maps/KuivaTown_PlayersHouse_1F/scripts.inc"
+
+	.include "data/maps/KuivaTown_PlayersHouse_2F/scripts.inc"

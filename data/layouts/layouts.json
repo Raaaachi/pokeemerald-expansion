@@ -4430,6 +4430,26 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/KummaDesert/border.bin",
       "blockdata_filepath": "data/layouts/KummaDesert/map.bin"
+    },
+    {
+      "id": "LAYOUT_KUIVA_TOWN_PLAYERS_HOUSE_1F",
+      "name": "KuivaTown_PlayersHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/KuivaTown_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/KuivaTown_PlayersHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_KUIVA_TOWN_PLAYERS_HOUSE_2F",
+      "name": "KuivaTown_PlayersHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/KuivaTown_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/KuivaTown_PlayersHouse_2F/map.bin"
     }
   ]
 }

@@ -593,6 +593,10 @@
 // gMapGroup_IndoorRoute124
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
-#define MAP_GROUPS_COUNT 34
+// gMapGroup_IndoorKuivaTown
+#define MAP_KUIVA_TOWN_PLAYERS_HOUSE_1F (0 | (34 << 8))
+#define MAP_KUIVA_TOWN_PLAYERS_HOUSE_2F (1 | (34 << 8))
+
+#define MAP_GROUPS_COUNT 35
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

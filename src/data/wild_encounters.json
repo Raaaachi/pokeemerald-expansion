@@ -11496,7 +11496,7 @@
           "map": "MAP_KUMMA_DESERT",
           "base_label": "gKummaDesert",
           "land_mons": {
-            "encounter_rate": 8,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 2,

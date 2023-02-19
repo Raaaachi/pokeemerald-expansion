@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/KuivaTown/border.bin",
       "blockdata_filepath": "data/layouts/KuivaTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_KUMMA_DESERT",
+      "name": "KummaDesert_Layout",
+      "width": 50,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/KummaDesert/border.bin",
+      "blockdata_filepath": "data/layouts/KummaDesert/map.bin"
     }
   ]
 }

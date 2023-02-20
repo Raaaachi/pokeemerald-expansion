@@ -106,9 +106,8 @@ KuivaTown_PlayersHouse_1F_Text_CantBelieveThatHappened:
 	.string "I am glad you are unharmed.\p"
 	.string "Still… what's a bag with rare Pokémon\n"
 	.string "doing in the middle of the desert?\p"
-	.string "Well, I think your best course of action\n"
-	.string "of action is to find who these Pokémon\l"
-	.string "belong to.\p"
+	.string "Well, I think you should find who\n"
+	.string "these Pokémon belong to.\p"
 	.string "I'll look after the other two while\n"
 	.string "you are away.$"
 

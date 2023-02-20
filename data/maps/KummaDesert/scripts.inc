@@ -1,4 +1,4 @@
-.set LOCALID_BALTOY, 2
+.set LOCALID_SANDSHREW, 2
 
 KummaDesert_MapScripts::
 	.byte 0
@@ -48,17 +48,17 @@ KummaDesert_Movement_ApproachBag2:
 	step_end
 
 KummaDesert_EventScript_StarterSequence::
-	addobject LOCALID_BALTOY
+	addobject LOCALID_SANDSHREW
 	msgbox KummaDesert_Text_BagSeemsToBeShaking, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_BALTOY, KummaDesert_Movement_BaltoyApproach
+	applymovement LOCALID_SANDSHREW, KummaDesert_Movement_SandshrewApproach
 	waitmovement 0 
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
 	waitmovement 0 
 	playse SE_PIN
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
 	waitmovement 0
-	playmoncry SPECIES_BALTOY, CRY_MODE_ENCOUNTER	
+	playmoncry SPECIES_SANDSHREW, CRY_MODE_ENCOUNTER	
 	delay 40
 	playbgm MUS_DP_LAKE_EVENT, TRUE
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_Delay48
@@ -72,7 +72,7 @@ KummaDesert_EventScript_StarterSequence::
 	special ChooseStarter 
 	setflag FLAG_FORCE_FACE_RIGHT
 	delay 1
-	removeobject LOCALID_BALTOY
+	removeobject LOCALID_SANDSHREW
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
 	waitmovement 0
 	delay 8
@@ -82,12 +82,22 @@ KummaDesert_EventScript_StarterSequence::
 	release
 	end
 
-KummaDesert_Movement_BaltoyApproach:
+KummaDesert_Movement_SandshrewApproach:
 	walk_up
 	walk_up
 	walk_up
 	walk_up
 	step_end
+
+KummaDesert_EventScript_Mike::
+	trainerbattle_single TRAINER_MIKE, KummaDesert_Text_MikeIntro, KummaDesert_Text_MikeDefeated
+	msgbox KummaDesert_Text_MikePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+KummaDesert_EventScript_Ali::
+	trainerbattle_single TRAINER_ALI, KummaDesert_Text_AliIntro, KummaDesert_Text_AliDefeated
+	msgbox KummaDesert_Text_AliPostBattle, MSGBOX_AUTOCLOSE
+	end
 
 KummaDesert_Text_ShouldNotGoThere:
 	.string "It's too dangerous to go there without\n"

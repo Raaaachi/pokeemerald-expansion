@@ -319,7 +319,7 @@
 #define TRAINER_SHELBY_3                    315
 #define TRAINER_SHELBY_4                    316
 #define TRAINER_SHELBY_5                    317
-#define TRAINER_CALVIN_1                    318
+#define TRAINER_MIKE                        318
 #define TRAINER_BILLY                       319
 #define TRAINER_JOSH                        320
 #define TRAINER_TOMMY                       321
@@ -334,7 +334,7 @@
 #define TRAINER_CALVIN_4                    330
 #define TRAINER_CALVIN_5                    331
 #define TRAINER_EDDIE                       332
-#define TRAINER_ALLEN                       333
+#define TRAINER_ALI                         333
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335
 #define TRAINER_ANDREW                      336

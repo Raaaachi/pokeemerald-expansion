@@ -2155,6 +2155,13 @@ static void InitObjectEventsLink(void)
     TryRunOnWarpIntoMapScript();
 }
 
+static void TryToUpdatePlayerFacingDirection(struct InitialPlayerAvatarState *initialPlayerAvatarState)
+{
+    if (FlagGet(FLAG_FORCE_FACE_RIGHT))
+        initialPlayerAvatarState->direction = DIR_EAST;
+    // Add more conditions here
+}
+
 static void InitObjectEventsLocal(void)
 {
     s16 x, y;
@@ -2165,6 +2172,7 @@ static void InitObjectEventsLocal(void)
     ResetObjectEvents();
     GetCameraFocusCoords(&x, &y);
     player = GetInitialPlayerAvatarState();
+    TryToUpdatePlayerFacingDirection(player);
     InitPlayerAvatar(x, y, player->direction, gSaveBlock2Ptr->playerGender);
     SetPlayerAvatarTransitionFlags(player->transitionFlags);
     ResetInitialPlayerAvatarState();

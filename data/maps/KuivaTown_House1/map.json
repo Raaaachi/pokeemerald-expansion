@@ -1,12 +1,12 @@
 {
-  "id": "MAP_KUIVA_TOWN_PLAYERS_HOUSE_1F",
-  "name": "KuivaTown_PlayersHouse_1F",
-  "layout": "LAYOUT_KUIVA_TOWN_PLAYERS_HOUSE_1F",
+  "id": "MAP_KUIVA_TOWN_HOUSE1",
+  "name": "KuivaTown_House1",
+  "layout": "LAYOUT_KUIVA_TOWN_HOUSE1",
   "music": "MUS_DP_TWINLEAF_DAY",
   "region_map_section": "MAPSEC_KUIVA_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": false,
@@ -15,40 +15,33 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_MOM",
-      "x": 5,
-      "y": 6,
+      "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
+      "x": 4,
+      "y": 4,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "KuivaTown_PlayersHouse_1F_EventScript_Mom",
+      "script": "KuivaTown_House1_EventScript_OldWoman",
       "flag": "0"
     }
   ],
   "warp_events": [
     {
-      "x": 1,
-      "y": 8,
+      "x": 4,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_KUIVA_TOWN",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     },
     {
-      "x": 2,
-      "y": 8,
+      "x": 3,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_KUIVA_TOWN",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 2,
-      "y": 2,
-      "elevation": 0,
-      "dest_map": "MAP_KUIVA_TOWN_PLAYERS_HOUSE_2F",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

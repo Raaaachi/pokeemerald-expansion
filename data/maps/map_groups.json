@@ -627,6 +627,8 @@
   ],
   "gMapGroup_IndoorKuivaTown": [
     "KuivaTown_PlayersHouse_1F",
-    "KuivaTown_PlayersHouse_2F"
+    "KuivaTown_PlayersHouse_2F",
+    "KuivaTown_House1",
+    "KuivaTown_House2"
   ]
 }

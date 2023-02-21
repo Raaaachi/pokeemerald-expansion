@@ -1,5 +1,5 @@
 KummaDesert_Text_MikeIntro:
-	.string "This desert can get rough.\n"
+	.string "Traveling can get rough.\n"
 	.string "Make sure you're always prepared!$"
 
 KummaDesert_Text_MikeDefeated:
@@ -17,8 +17,9 @@ KummaDesert_Text_AliDefeated:
 	.string "How fascinating…$"
 
 KummaDesert_Text_AliPostBattle:
-	.string "You are one mysterious kid…$"
-
+	.string "Let me know if you find anything out\n"
+	.string "of the ordinary here.$"
+	
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met!\n"
 	.string "I'll take you on with my BUG POKéMON!$"

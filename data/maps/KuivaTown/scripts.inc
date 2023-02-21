@@ -12,15 +12,7 @@ KuivaTown_EventScript_TownSign::
 KuivaTown_EventScript_OldMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_POKEMON_GET, KuivaTown_EventScript_YouGotAPokemon
-	msgbox KuivaTown_Text_LovelyOutToday, MSGBOX_DEFAULT
-	closemessage
-	release
-	end
-
-KuivaTown_EventScript_YouGotAPokemon::
-	msgbox KuivaTown_Text_YouGotAPokemon, MSGBOX_DEFAULT
-	closemessage
+	msgbox KuivaTown_Text_WindHasSlowed, MSGBOX_DEFAULT
 	release
 	end
 
@@ -31,11 +23,8 @@ KuivaTown_Text_TownSign:
 	.string "Kuiva Town\n"
 	.string "The heart of the region.$"
 
-KuivaTown_Text_LovelyOutToday:
+KuivaTown_Text_WindHasSlowed:
 	.string "The wind in the desert has slowed.\n"
-	.string "Sounds lovely for a little exploration.$"
+	.string "Sounds lovely for a little exploration!$"
 
-KuivaTown_Text_YouGotAPokemon:
-	.string "So you found a bag with Pokémon inside?\n"
-	.string "You are one lucky kiddo.\p"
-	.string "Promise me you'll do good with it.$"
+	

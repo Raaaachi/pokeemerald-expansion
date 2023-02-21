@@ -23,11 +23,9 @@ KuivaTown_PlayersHouse_1F_EventScript_MomNiceOut::
 	waitmovement 0
 	applymovement LOCALID_MOM, Common_Movement_Delay48
 	waitmovement 0
-	msgbox KuivaTown_PlayersHouse_1F_Text_YoureAwake, MSGBOX_DEFAULT
-	closemessage
 	applymovement LOCALID_MOM, KuivaTown_PlayersHouse_1F_Movement_MomApproach
 	waitmovement 0
-	msgbox KuivaTown_PlayersHouse_1F_Text_DesertIsNiceToday
+	msgbox KuivaTown_PlayersHouse_1F_Text_ItsNiceOut, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MOM, KuivaTown_PlayersHouse_1F_Movement_MomGoBack
 	waitmovement 0
@@ -85,12 +83,25 @@ KuivaTown_PlayersHouse_1F_Movement_MomGoBack:
 	walk_right
 	step_end
 
-KuivaTown_PlayersHouse_1F_Text_YoureAwake:
-	.string "{PLAYER}!$"
+KuivaTown_PlayersHouse_1F_EventScript_Mom::
+	lock
+	faceplayer
+	goto_if_set FLAG_OBTAINED_POKEMON, PlayersHouse_1F_EventScript_MomHealsParty
+	msgbox KuivaTown_PlayersHouse_1F_Text_GoExplore, MSGBOX_DEFAULT
+	release
+	end
 
-KuivaTown_PlayersHouse_1F_Text_DesertIsNiceToday:
+KuivaTown_PlayersHouse_1F_Text_ItsNiceOut:
+	.string "{PLAYER}!\p"
 	.string "It's nice out today,\n"
 	.string "for once…\p"
+	.string "You should go explore, get some\n"
+	.string "fresh air.\l"
+	.string "Just be careful of the deep sand,\l"
+	.string "wild Pokémon may attack you.\p"
+	.string "Stay safe!$"
+
+KuivaTown_PlayersHouse_1F_Text_GoExplore:
 	.string "You should go explore, get some\n"
 	.string "fresh air.\l"
 	.string "Just be careful of the deep sand,\l"
@@ -103,9 +114,10 @@ KuivaTown_PlayersHouse_1F_Text_WhatHappened:
 KuivaTown_PlayersHouse_1F_Text_CantBelieveThatHappened:
 	.string "…Wow.\p"
 	.string "I can't believe that happened to you.\n"
-	.string "I am glad you are unharmed.\p"
+	.string "I am glad you are safe.\p"
 	.string "Still… what's a bag with rare Pokémon\n"
-	.string "doing in the middle of the desert?\p"
+	.string "doing out here in the middle of\l"
+	.string "nowhere?\p"
 	.string "Well, I think you should find who\n"
 	.string "these Pokémon belong to.\p"
 	.string "I'll look after the other two while\n"
@@ -120,3 +132,4 @@ KuivaTown_PlayersHouse_1F_Text_TakeCare:
 	.string "You'll want to go through CAVE NAME\n"
 	.string "to access the rest of the region.\p"
 	.string "Bye, {PLAYER}! Enjoy your adventure!$"
+

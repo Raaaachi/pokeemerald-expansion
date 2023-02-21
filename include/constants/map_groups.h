@@ -596,6 +596,8 @@
 // gMapGroup_IndoorKuivaTown
 #define MAP_KUIVA_TOWN_PLAYERS_HOUSE_1F (0 | (34 << 8))
 #define MAP_KUIVA_TOWN_PLAYERS_HOUSE_2F (1 | (34 << 8))
+#define MAP_KUIVA_TOWN_HOUSE1           (2 | (34 << 8))
+#define MAP_KUIVA_TOWN_HOUSE2           (3 | (34 << 8))
 
 #define MAP_GROUPS_COUNT 35
 

@@ -41,6 +41,20 @@
       "elevation": 0,
       "dest_map": "MAP_KUIVA_TOWN_PLAYERS_HOUSE_1F",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_KUIVA_TOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_KUIVA_TOWN_HOUSE2",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

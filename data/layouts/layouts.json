@@ -4450,6 +4450,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/KuivaTown_PlayersHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/KuivaTown_PlayersHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_KUIVA_TOWN_HOUSE1",
+      "name": "KuivaTown_House1_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/KuivaTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/KuivaTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_KUIVA_TOWN_HOUSE2",
+      "name": "KuivaTown_House2_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/KuivaTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/KuivaTown_House2/map.bin"
     }
   ]
 }

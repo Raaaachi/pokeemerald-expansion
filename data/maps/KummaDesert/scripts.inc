@@ -67,6 +67,7 @@ KummaDesert_EventScript_StarterSequence::
 	waitmovement 0
 	delay 16
 	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_OBTAINED_POKEMON
 	setvar VAR_KUMMA_DESERT_STATE, 1
 	setvar VAR_NEW_GAME_STATE, 1
 	special ChooseStarter 
@@ -88,16 +89,6 @@ KummaDesert_Movement_SandshrewApproach:
 	walk_up
 	walk_up
 	step_end
-
-KummaDesert_EventScript_Mike::
-	trainerbattle_single TRAINER_MIKE, KummaDesert_Text_MikeIntro, KummaDesert_Text_MikeDefeated
-	msgbox KummaDesert_Text_MikePostBattle, MSGBOX_AUTOCLOSE
-	end
-
-KummaDesert_EventScript_Ali::
-	trainerbattle_single TRAINER_ALI, KummaDesert_Text_AliIntro, KummaDesert_Text_AliDefeated
-	msgbox KummaDesert_Text_AliPostBattle, MSGBOX_AUTOCLOSE
-	end
 
 KummaDesert_Text_ShouldNotGoThere:
 	.string "It's too dangerous to go there without\n"

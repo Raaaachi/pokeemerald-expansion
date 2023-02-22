@@ -334,7 +334,7 @@
 #define TRAINER_CALVIN_4                    330
 #define TRAINER_CALVIN_5                    331
 #define TRAINER_EDDIE                       332
-#define TRAINER_ALI                         333
+#define TRAINER_HUNTER                      333
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335
 #define TRAINER_ANDREW                      336

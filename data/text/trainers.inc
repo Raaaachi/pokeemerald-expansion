@@ -1,22 +1,22 @@
-KummaDesert_Text_MikeIntro:
+SplitCave_1F_Text_MikeIntro:
 	.string "Traveling can get rough.\n"
 	.string "Make sure you're always prepared!$"
 
-KummaDesert_Text_MikeDefeated:
+SplitCave_1F_Text_MikeDefeated:
 	.string "Guess I wasn't prepared for this…$"
 
-KummaDesert_Text_MikePostBattle:
+SplitCave_1F_Text_MikePostBattle:
 	.string "Exploration is the best thing this\n"
 	.string "world has to offer!$"
 
-KummaDesert_Text_AliIntro:
+SplitCave_1F_Text_HunterIntro:
 	.string "There are many secrets hidden in\n"
-	.string "the desert!$"
+	.string "caves!$"
 
-KummaDesert_Text_AliDefeated:
+SplitCave_1F_Text_HunterDefeated:
 	.string "How fascinating…$"
 
-KummaDesert_Text_AliPostBattle:
+SplitCave_1F_Text_HunterPostBattle:
 	.string "Let me know if you find anything out\n"
 	.string "of the ordinary here.$"
 	
@@ -1786,18 +1786,15 @@ Route114_Text_LucasPostBattle:
 	.string "In the winter, mountains turn deadly\n"
 	.string "with blizzards and avalanches.$"
 
-Route114_Text_ShaneIntro:
-	.string "Camping's fun! You can fish, roast\n"
-	.string "marshmallows, and tell spooky stories!\p"
-	.string "But the best of all are the POKéMON\n"
-	.string "battles!$"
+SplitCave_2F_Text_ShaneIntro:
+	.string "Ufufufufufu…\n"
+	.string "My Pokémon are unbeatable!$"
 
-Route114_Text_ShaneDefeat:
-	.string "Way too strong!$"
+SplitCave_2F_Text_ShaneDefeat:
+	.string "M-My POKéMON…$"
 
-Route114_Text_ShanePostBattle:
-	.string "I think it's great that I can go\n"
-	.string "camping with my POKéMON.$"
+SplitCave_2F_Text_ShanePostBattle:
+	.string "I-I won't forget this!$"
 
 Route114_Text_NancyIntro:
 	.string "I need to exercise after a meal.\n"

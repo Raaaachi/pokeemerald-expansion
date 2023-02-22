@@ -4470,6 +4470,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/KuivaTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/KuivaTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPLIT_CAVE_1F",
+      "name": "SplitCave_1F_Layout",
+      "width": 35,
+      "height": 45,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SplitCave_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SplitCave_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPLIT_CAVE_2F",
+      "name": "SplitCave_2F_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SplitCave_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SplitCave_2F/map.bin"
     }
   ]
 }

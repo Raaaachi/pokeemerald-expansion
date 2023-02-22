@@ -1071,3 +1071,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/KuivaTown_House1/scripts.inc"
 
 	.include "data/maps/KuivaTown_House2/scripts.inc"
+
+	.include "data/maps/SplitCave_1F/scripts.inc"
+
+	.include "data/maps/SplitCave_2F/scripts.inc"

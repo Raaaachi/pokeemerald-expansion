@@ -1726,6 +1726,14 @@
       "y": 17,
       "width": 50,
       "height": 30
+    },
+    {
+      "map_section": "MAPSEC_SPLIT_CAVE",
+      "name": "Split Cave",
+      "x": 11,
+      "y": 17,
+      "width": 50,
+      "height": 30
     }
   ]
 }

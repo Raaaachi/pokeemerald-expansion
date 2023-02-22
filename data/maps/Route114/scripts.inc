@@ -89,11 +89,6 @@ Route114_EventScript_Lucas::
 	msgbox Route114_Text_LucasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route114_EventScript_Shane::
-	trainerbattle_single TRAINER_SHANE, Route114_Text_ShaneIntro, Route114_Text_ShaneDefeat
-	msgbox Route114_Text_ShanePostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route114_EventScript_Nancy::
 	trainerbattle_single TRAINER_NANCY, Route114_Text_NancyIntro, Route114_Text_NancyDefeat
 	msgbox Route114_Text_NancyPostBattle, MSGBOX_AUTOCLOSE

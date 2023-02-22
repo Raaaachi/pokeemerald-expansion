@@ -23,5 +23,5 @@ KuivaTown_House1_Text_GoingOnAdventure:
 	.string "adventure?\p"
 	.string "You remind me of myself in\n"
 	.string "my youth.\l"
-	.string "Best of luck!$"
+	.string "I envy you, kiddo.$"
 

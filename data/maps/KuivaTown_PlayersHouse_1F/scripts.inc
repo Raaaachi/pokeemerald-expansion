@@ -58,7 +58,7 @@ KuivaTown_PlayersHouse_1F_EventScript_MomGoOnAdventure::
 	waitmovement 0
 	msgbox KuivaTown_PlayersHouse_1F_Text_TakeThesePokeballs
 	closemessage
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 10
 	msgbox KuivaTown_PlayersHouse_1F_Text_TakeCare
 	closemessage
 	applymovement LOCALID_MOM, Common_Movement_FaceRight
@@ -114,14 +114,17 @@ KuivaTown_PlayersHouse_1F_Text_WhatHappened:
 KuivaTown_PlayersHouse_1F_Text_CantBelieveThatHappened:
 	.string "…Wow.\p"
 	.string "I can't believe that happened to you.\n"
-	.string "I am glad you are safe.\p"
+	.string "I'm glad you are safe.\p"
 	.string "Still… what's a bag with rare Pokémon\n"
-	.string "doing out here in the middle of\l"
-	.string "nowhere?\p"
-	.string "Well, I think you should find who\n"
-	.string "these Pokémon belong to.\p"
-	.string "I'll look after the other two while\n"
-	.string "you are away.$"
+	.string "doing out here?\l"
+	.string "With a Pokédex too…\p"
+	.string "It must belong to Professor ???.\n"
+	.string "He lives in ??? Town, but if a bag of\l"
+	.string "his is out here, maybe he's traveling.\p"
+	.string "If you went on your own journey, maybe\n"
+	.string "you'd bump into him.\p"
+	.string "In that case, I'll look after the other\n"
+	.string "two while you are away.$"
 
 KuivaTown_PlayersHouse_1F_Text_TakeThesePokeballs:
 	.string "Oh! There are some empty Poké Balls\n"
@@ -129,7 +132,7 @@ KuivaTown_PlayersHouse_1F_Text_TakeThesePokeballs:
 	.string "They should help you while you're out.$"
 
 KuivaTown_PlayersHouse_1F_Text_TakeCare:
-	.string "You'll want to go through CAVE NAME\n"
+	.string "You'll want to go through Split Cave\n"
 	.string "to access the rest of the region.\p"
 	.string "Bye, {PLAYER}! Enjoy your adventure!$"
 

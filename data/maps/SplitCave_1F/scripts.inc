@@ -1,0 +1,13 @@
+SplitCave_1F_MapScripts::
+	.byte 0
+
+
+SplitCave_1F_EventScript_Mike::
+	trainerbattle_single TRAINER_MIKE, SplitCave_1F_Text_MikeIntro, SplitCave_1F_Text_MikeDefeated
+	msgbox SplitCave_1F_Text_MikePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SplitCave_1F_EventScript_Hunter::
+	trainerbattle_single TRAINER_HUNTER, SplitCave_1F_Text_HunterIntro, SplitCave_1F_Text_HunterDefeated
+	msgbox SplitCave_1F_Text_HunterPostBattle, MSGBOX_AUTOCLOSE
+	end

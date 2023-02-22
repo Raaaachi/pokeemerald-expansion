@@ -76,12 +76,30 @@ KummaDesert_EventScript_StarterSequence::
 	removeobject LOCALID_SANDSHREW
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
 	waitmovement 0
-	delay 8
-	fadescreen FADE_TO_BLACK
-	delay 8
+	delay 32
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	delay 16
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_Delay48
+	waitmovement 0
+	msgbox KummaDesert_Text_SomethingElseInside, MSGBOX_DEFAULT
+	call KummaDesert_EventScript_ReceivePokedex
+	delay 32
 	warp MAP_KUIVA_TOWN_PLAYERS_HOUSE_1F, 4, 6
 	release
 	end
+
+KummaDesert_EventScript_ReceivePokedex::
+	playfanfare MUS_OBTAIN_ITEM
+	message KummaDesert_Text_FoundPokedex
+	waitfanfare
+	setflag FLAG_SYS_POKEDEX_GET
+	special SetUnlockedPokedexFlags
+	closemessage
+	return
 
 KummaDesert_Movement_SandshrewApproach:
 	walk_up
@@ -97,4 +115,10 @@ KummaDesert_Text_ShouldNotGoThere:
 KummaDesert_Text_BagSeemsToBeShaking:
 	.string "The bag seems to be shaking…\n"
 	.string "Maybe something is inside?$"
+
+KummaDesert_Text_SomethingElseInside:
+	.string "Seems something else is inside the bag.$"
+
+KummaDesert_Text_FoundPokedex:
+	.string "{PLAYER} found the Pokédex!$"
 

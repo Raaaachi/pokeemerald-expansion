@@ -2,7 +2,6 @@
 
 Route110_TrickHouseEnd_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHouseEnd_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHouseEnd_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route110_TrickHouseEnd_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHouseEnd_OnWarp
 	.byte 0
@@ -11,11 +10,6 @@ Route110_TrickHouseEnd_OnResume:
 	call_if_eq VAR_TEMP_1, 1, Route110_TrickHouseEnd_EventScript_SetDoorClosedMetatile
 	end
 
-Route110_TrickHouseEnd_OnTransition:
-	setvar VAR_TEMP_1, 0
-	setvar VAR_TEMP_2, 0
-	special SetTrickHouseNuggetFlag
-	end
 
 Route110_TrickHouseEnd_OnWarp:
 	map_script_2 VAR_TEMP_2, 0, Route110_TrickHouseEnd_EventScript_SetTrickMasterPos
@@ -160,7 +154,6 @@ Route110_TrickHouseEnd_EventScript_CompletedPuzzle8::
 	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_NoRoomForTent
 	msgbox Route110_TrickHouseEnd_Text_LeavingOnJourney, MSGBOX_DEFAULT
 	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
-	special ResetTrickHouseNuggetFlag
 	release
 	end
 

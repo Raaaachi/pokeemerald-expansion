@@ -2,12 +2,12 @@ KummaDesert_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
 
-Route103_EventScript_ItemGuardSpec::
-	finditem ITEM_GUARD_SPEC
+SplitCave_1F_EventScript_ItemRepel::
+	finditem ITEM_REPEL
 	end
 
-Route103_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+SplitCave_2F_EventScript_ItemPotion::
+	finditem ITEM_POTION
 	end
 
 Route104_EventScript_ItemPPUp::
